@@ -153,7 +153,7 @@ def handle_wx():
             <FromUserName><![CDATA[{CORP_ID}]]></FromUserName>
             <CreateTime>{int(time.time())}</CreateTime>
             <MsgType><![CDATA[text]]></MsgType>
-            <Content><![CDATA[Received: 你好这是来自ZTE金易的AI消息: {content}]]></Content>
+            <Content><![CDATA[Received: ZTE金易本地AI一体机对消息的回复: {content}]]></Content>
        </xml>
         """
         # 加密回复
