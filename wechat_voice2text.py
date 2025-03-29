@@ -40,8 +40,8 @@ def voice_to_text(access_token, media_id):
 
 if __name__== '__main__':
     # 使用示例
-    corpid = "wwe9c50b7b88f8a29b"
-    corpsecret = "mROdmdPtz2vzJ5zWIyQJ8r6dgOt7q7u69v2Y1JUP8lw"
+    corpid = "wwe9c50b7b88f8a29b1"
+    corpsecret = "mROdmdPtz2vzJ5zWIyQJ8r6dgOt7q7u69v2Y1JUP8lw1"
     access_token = get_access_token(corpid, corpsecret)
     media_id =  '118NddZ2fqtCW4_ReT5_YFPfXVoF9j360s27WdAiONRmdbbZ0BHzV6DC4QjQXj5Oq'  #upload_voice(access_token, "your_voice_file.amr")
     download_voice(access_token, media_id)
