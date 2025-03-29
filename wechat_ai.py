@@ -10,9 +10,9 @@ import string
 app = Flask(__name__)
 
 # 企业微信配置
-CORP_ID = "wwe9c50b7b88f8a29b"  # 企业ID
-TOKEN = "oiSO6dMwD8IN"  # 接收消息的Token
-EncodingAESKey = "xhu3qH47om7eXeuJFbBGFTirlc6l3qs8FSEZ4FDHF4e"  # 43位AESKey
+CORP_ID = "wwe9c50b7b88f8a29b1"  # 企业ID
+TOKEN = "oiSO6dMwD8IN1"  # 接收消息的Token
+EncodingAESKey = "xhu3qH47om7eXeuJFbBGFTirlc6l3qs8FSEZ4FDHF4e1"  # 43位AESKey
 
 
 class WXBizMsgCrypt:
